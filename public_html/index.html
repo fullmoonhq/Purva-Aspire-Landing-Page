@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Purva Aspire</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11437004499"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'AW-11437004499');
+    </script>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-0">
+                    <a href="index.html" class="navbar-brand">
+                    </a>
+                    <button type="button" class="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto mx-xl-auto p-0">
+                            <a href="#overview" class="nav-item nav-link">Overview</a>
+                            <a href="#highlights" class="nav-item nav-link">Highlights</a>
+                            <a href="#floorplans" class="nav-item nav-link">Floor Plans</a>
+                            <a href="#pricing" class="nav-item nav-link">Pricing</a>
+                            <a href="#amenities" class="nav-item nav-link">Amenities</a>
+                            <a href="#location" class="nav-item nav-link">Location</a>
+                            <a href="#contact" class="nav-item nav-link">Contact</a>
+                            <div class="phone d-xl-flex flex-shirink-0 ps-5">
+                                <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                                    <a href="" class="position-relative animated tada infinite">
+                                        <i class="fa fa-phone-alt text-white fa-2x"></i>
+                                        <div class="position-absolute" style="top: -7px; left: 20px;">
+                                            <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="d-flex flex-column ps-2">
+                                    <span class="text-white-50">Call us for Pickup & Drop</span>
+                                    <span class="text-secondary fw-bolder">Call: 9323547765</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid px-0">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/banner1.png" class="img-fluid" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner2.jpg" class="img-fluid" alt="Second slide">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+    
+        <!-- About Start -->
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h4 class="mb-4" id="overview">WHY YOU SHOULD VISIT PURVA ASPIRE.</h4>
+                        <p style="text-align: justify;">Welcome to Purva Aspire, a visionary residential enclave nestled at the base of the NDA Hills in Bavdhan, Pune. Here, you'll find the perfect blend of modern luxury and cutting-edge technology. These homes are equipped with BluNex technology, allowing you to automate daily tasks, set the perfect mood with lighting, and control your home through voice commands and geo-awareness features. It's a seamless integration of tomorrow's technology available today.</p>
+                        <a class="btn btn-primary py-3 px-5 mt-3" href="#" onclick="openForm()">Get E-Brochure</a>
+                    </div>
+                    <div class="col-md-7 ps-5 pt-3">
+                        <img src="./img/10.webp" width="100%" height="300px">
+                    </div>
+                </div>
+            </div>
+        <!-- About End -->    
+        
+        <div class="container my-6 py-6">
+            <div class="text-center mx-auto pt-5 pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                <h1 id="highlights" class="text-primary">HIGHLIGHTS</h1>
+            </div>
+            <div class="row">                                               
+                <div class="col-md-4">
+                    <img src="img/29.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/30.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="img/19.jpg" class="img-fluid">
+                </div>
+            </div>                                        
+        </div>
+
+        <!-- Services Start -->
+        <div class="container-fluid services py-5 mb-5">
+            <div class="container mt-4">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h1 id="pricing" class="text-primary">PRICING OF PURVA ASPIRE</h1>
+                </div>
+                <div class="row g-5 services-inner">
+                    <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay=".3s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                    
+                                    <h4 class="mb-3">2 BHK</h4>
+                                    <h4 class="mb-4">828 - 981 Sq.Ft.</h4>
+                                    <h4 class="mb-4">₹. 1.09 Cr Onwards Negotiable*</h4>
+                                    <a href="#!" onclick="openForm()" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Price Breakup</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay=".5s">
+                        <div class="services-item bg-light">
+                            <div class="p-4 text-center services-content">
+                                <div class="services-content-icon">
+                                
+                                    <h4 class="mb-3">3 BHK</h4>
+                                    <h4 class="mb-4">1152 - 1453 Sq.Ft.</h4>
+                                    <h4 class="mb-4">₹ 1.50 Cr Onwards Negotiable*</h4>
+                                    <a href="#!" onclick="openForm()" class="btn btn-secondary text-white px-5 py-3 rounded-pill">Price Breakup</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+        <!-- Project Start -->
+        <div class="container-fluid project mt-4 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h1 id="floorplans" class="text-primary">SITE & FLOOR PLANS</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="membership-item position-relative">
+                            <img class="img-fluid" src="img/2-BHK-Luxe-Purva-Aspire-Pune.jpg" alt="">
+                            <a class="btn btn-outline-light px-5 mx-5 mt-3" href="#" onclick="openForm()">2 BHK Luxe Layout</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="membership-item position-relative">
+                            <img class="img-fluid" src="img/2-BHK-Grand-Purva-Aspire-Pune.jpg" alt="">
+                            <a class="btn btn-outline-light px-5 mx-5 mt-3" href="#" onclick="openForm()">2 BHK Grand Layout</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="membership-item position-relative">
+                            <img class="img-fluid" src="img/3-BHK-Luxe-Purva-Aspire-Pune.jpg" alt="">
+                            <a class="btn btn-outline-light px-5 mx-5 mt-3" href="#" onclick="openForm()">3 BHK Luxe Layout</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="membership-item position-relative">
+                            <img class="img-fluid" src="img/3-BHK-Grand-Purva-Aspire-Pune.jpg" alt="">
+                            <a class="btn btn-outline-light px-5 mx-5 mt-3" href="#" onclick="openForm()">3 BHK Grand Layout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+        <!-- Team Start -->
+        <div class="container-fluid py-5 mb-5 team">
+            <div class="container">
+                <div class="pb-5 wow fadeIn" data-wow-delay=".3s">                   
+                    <h1 id="amenities" class="mb-3 text-primary text-center">AMENITIES THAT KEEP YOU HALE & HEARTY.</h1>
+                </div>
+                <div class="container wow fadeIn" data-wow-delay=".5s">
+                    <div class="row gy-6 mt-5 gx-4">
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center" data-wow-delay="0.1s">
+                            <img class="img-fluid mb-3" src="img/swimming pool.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Swimming Pool</h5>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center" data-wow-delay="0.5s">
+                            <img class="img-fluid mb-3" src="img/library.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Library</h5>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center" data-wow-delay="0.3s">
+                            <img class="img-fluid mb-3" src="img/billard.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Billards</h5>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center" data-wow-delay="0.1s">
+                            <img class="img-fluid mb-3" src="img/gym.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Gym</h5>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center" data-wow-delay="0.7s">
+                            <img class="img-fluid mb-3" src="img/squashcourt.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Squash Court</h5>
+                        </div>                
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center" data-wow-delay="0.3s">
+                            <img class="img-fluid mb-3" src="img/multipurpose hall.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Multipurpose Hall</h5>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center mt-5" data-wow-delay="0.5s">
+                            <img class="img-fluid mb-3" src="img/playground.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Playground</h5>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center mt-5" data-wow-delay="0.3s">
+                            <img class="img-fluid mb-3" src="img/club.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Clubhouse</h5>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center mt-5" data-wow-delay="0.1s">
+                            <img class="img-fluid mb-3" src="img/jogging.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Jogging Track</h5>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center mt-5" data-wow-delay="0.7s">
+                            <img class="img-fluid mb-3" src="img/games.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Indoor Games</h5>
+                        </div>                
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center mt-5" data-wow-delay="0.3s">
+                            <img class="img-fluid mb-3" src="img/garden.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Landscape Garden</h5>
+                        </div>
+                        <div class="col-lg-2 col-md-4 col-sm-6 wow fadeInUp text-center mt-5" data-wow-delay="0.3s">
+                            <img class="img-fluid mb-3" src="img/meditation.png" alt="80px" width="80px">
+                            <h5 class="mb-3">Meditation Area</h5>
+                        </div>
+                    </div>   
+                </div>
+                <div class="mt-4 text-center">
+                    <a class="btn btn-primary py-3 px-5 mt-3" href="#" onclick="openForm()">Many More <i class="fa fa-smile-beam ps-1"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- Team End --> 
+
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial py-4 mb-5">
+            <div class="container">
+                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style="max-width: 600px;">
+                    <h1 id="gallery" class="text-primary">INTERIORS and EXTERIORS</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
+                    <div class="testimonial-item border p-4">
+                        <img src="img/11.jpg" height="250px">                      
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <img src="img/12.jpg" height="250px">                      
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <img src="img/22.jpg" height="250px">                      
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <img src="img/23.jpg" height="250px">                      
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <img src="img/13.jpg" height="250px">                      
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <img src="img/14.jpg" height="250px">                      
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <img src="img/15.webp" height="250px">                      
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <img src="img/16.jpg" height="250px">                      
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <img src="img/17.jpg" height="250px">                      
+                    </div>
+                    <div class="testimonial-item border p-4">
+                        <img src="img/21.jpg" height="250px">                      
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial End -->
+
+
+        <!-- Contact Start -->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="pb-5 wow fadeIn" data-wow-delay=".3s">                   
+                    <h1 id="location" class="mb-3 text-primary text-center">LIVE SEAMLESSLY AT THE BUZZING LOCATION OF BAVDHAN</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="membership-item position-relative">
+                            <img class="img-fluid" src="img/location.jpg" height="100%">
+                            <a class="btn btn-outline-light px-5 mx-5 mt-3" href="#" onclick="openForm()" style="margin-left: 50%;">View Location</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h6>TECH PARKS</h6>
+                        <ul>
+                            <li>Hinjewadi IT Park</li>
+                            <li>Prabhavee Tech Park</li>
+                            <li>Nano Space IT Park</li>
+                            <li>Pune IT Park</li>
+                            <li>Oracle</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">                        
+                        <h6>EDUCATION HUBS</h6>
+                        <ul>
+                            <li>Ryan International School</li>
+                            <li>Periwinkle English Medium</li>                            
+                            <li>PVPIT</li>
+                            <li>Vasantdada Patil Institute Of Engineering</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">                        
+                        <h6>HOSPITALS</h6>
+                        <ul>
+                            <li>Chellaram Hospital</li>
+                            <li>Bavdhan Medicare Centre</li>
+                            <li>Tirupati Hospital</li>
+                            <li>Asian Speciality Hospital</li>
+                        </ul>
+                    </div>                    
+                    <div class="col-md-2">                        
+                        <h6>HOTELS AND MALLS</h6>
+                        <ul>
+                            <li>Ambrosia Spa & Resort</li>
+                            <li>J.W. Marriott</li>
+                            <li>United 21</li>
+                            <li>Aditya Shagun Mall</li>
+                            <li>Pavilion Mall</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <!-- Contact End -->
+
+    <div class="text-center">
+        <img src="./img/code.png" height="100px" width="100px">
+        <h4 class="mt-3 mb-4"> P5210001765 </h4>
+    </div>
+
+    
+    
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+        <div class="container pt-5 text-center" id="contact">     
+                
+                <div class="phone d-xl-flex flex-shirink-0 ps-3 align-items-center justify-content-center">
+                    <div id="phone-tada" class="d-flex align-items-center justify-content-center me-4">
+                        <a href="" class="position-relative animated tada infinite">
+                            <i class="fa fa-phone-alt text-white fa-2x"></i>
+                            <div class="position-absolute" style="top: -7px; left: 20px;">
+                                <span><i class="fa fa-comment-dots text-secondary"></i></span>
+                            </div>
+                        </a> 
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="tel:9323547765">
+                            <span class="text-white pt-3">Call us for Pickup & Drop</span>
+                            <h2 class="text-secondary fw-bolder">9323547765</h2>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="d-inline-flex align-items-center text-center mt-5">
+                    <a aria-label="Chat on WhatsApp" href="https://wa.me/9323547765"> 
+                        <img alt="Chat on WhatsApp" src="img/whatsapp.png" height="70px" width="70px" /><h1 class=" mt-3 text-secondary">Chat on WhatsApp</h1>                
+                    <a/>
+                </div>
+
+            <hr class="text-light mt-5 mb-2">
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-dark wow fadeIn" data-wow-delay=".3s">
+        <div class="container-fluid pt-2 pb-4">
+            <div style="text-align: justify;font-size:12px;">
+                <span class="text-light">Disclaimer :Please note that the content provided on this website is for informational purposes only and does not constitute an offer to avail any service. Prices mentioned are subject to change without prior notice, and the properties listed are subject to availability.The images displayed on this website are for representation purposes only. We may also send updates to the mobile number/email id registered with us. All rights reserved. 
+                    <a href="privacypolicy.html" class="text-secondary">Privacy Policy</a>
+                    <a href="termsandconditions.html" class="text-secondary">Terms & Conditions</a>
+                </span>
+            </div>              
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary btn-square rounded-circle back-to-top"><i class="fa fa-arrow-up text-white"></i></a>
+
+<!--homeloan popup-->
+
+    <div class="form-popup" id="myForm">
+        <form action="https://formspree.io/f/xleyqjnb" method="POST" class="form-container2"> 
+        <button type="button" class="close" onclick="closeForm()" style=" height : 20px; width: 30;border: 0;background-color: #fff;margin-left: 90%; font-size: 30px;">&times;</button>
+        <div>
+            <h4 class="mt-2 mb-1 ms-1 text-secondary text-center">PURVA ASPIRE</span></h4>       
+        </div>
+        <br> 
+            <!-- 2 column grid layout with text inputs for the first and last names --> 
+            <div class="form-outline mb-2">
+                <input type="text" id="form3Example1" class="form-control" name="Name" placeholder="Name" required />
+            </div>
+            <!-- Contact input -->
+            <div class="form-outline mb-2">
+                <input type="tel" id="form3Example4" class="form-control" name="Contact" placeholder="Contact Number" required />
+            </div>
+            <!-- Email input -->
+            <div class="form-outline mb-2">
+                <input type="email" id="form3Example3" class="form-control" name="Email" placeholder="Email" required />
+            </div>
+            <button type="submit" class="btn btn-secondary mt-2 text-white">Enquire Now</button>
+        </form>
+    </div>
+        
+    <!--form popup-->
+        
+    <div class="popup" style="background-color: #f8f7f7 ;width: 330px; ">
+        <button id="close">&times;</button>
+        <h4 class="mt-3 text-secondary">Best Offers & Site Visit</span></h4>
+        
+        <form action="https://formspree.io/f/xleyqjnb" method="POST" class="formContainer1">
+        
+            <div class="form-group">			
+                <input type="text" class="form-control" id="name" name="Name" placeholder="Name" required>
+            </div>
+    
+            <div class="form-group mt-2">
+                <div>
+                    <input type="tel" class="form-control" id="contact" name="Contact" placeholder="Contact Number" required>
+                </div>
+            </div>
+    
+            <div class="form-group mt-2">							
+                <div>
+                    <input type="email" class="form-control" id="email" name="Email" placeholder="Email Address" required>
+                </div>
+            </div>
+    
+            <button type="submit" class="modal-footer btn mt-3" 
+            style="display: block;
+            width: 200px;
+            position: relative;
+            text-align: center;
+            border-radius: 0px;
+            color: #ffffff;
+            background-color: #26d48c;
+            text-decoration: none;
+            padding: 2px 0;
+            font-size: 15px;
+            margin-left: 30px;
+            ">
+            Enquire Now</button>
+            
+        </form>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+        
+    </body>
+
+</html>
